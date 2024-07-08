@@ -2,7 +2,7 @@
 
   "scripts":{
     "start": "node ./bin/server.js",
-    "test": "echo \"Error: no tests specified"
+    "test": "echo \"Error: no tests specified\" && exit 1"
   },
 
   "dependencies": {
