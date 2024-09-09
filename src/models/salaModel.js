@@ -1,6 +1,6 @@
 const db = require("./db");
 
-function listarSalas(){
+/*function listarSalas(){
     return [
         {
             "_id":{
@@ -10,13 +10,14 @@ function listarSalas(){
             "tipo": "Pública"
         }
     ]
-}
+}*/
 
 
+//Código de conexão com o banco:
 
-/*let listarSalas = async () =>{
+let listarSalas = async () =>{
     let salas = await db.findAll("salas");
     return salas;
-};*/
+};
 
 module.exports = {listarSalas};
